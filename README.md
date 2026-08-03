@@ -14,7 +14,7 @@ A robust, backend-driven To-Do List application built with **Node.js**, **Expres
 
 ## 📸 Preview
 
-![Project Task Manager Screenshot](./screenshot.png)
+![Project Task Manager Screenshot](./public/screenshot.png)
 
 The app provides a clean, card-based interface for managing tasks — add a title, assign a category, pick a due date, and track progress at a glance.
 
