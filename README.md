@@ -10,10 +10,6 @@ A robust, backend-driven To-Do List application built with **Node.js**, **Expres
 
 ---
 
-## 🚀 Live Demo
-
-**Access the live application:** [Insert your AWS EC2 Public IP or Domain Here]
-
 ---
 
 ## 📸 Preview
@@ -27,13 +23,21 @@ The app provides a clean, card-based interface for managing tasks — add a titl
 ## ✨ Features
 
 - **Strict MVC Architecture** — clean separation of business logic (Controllers), data modeling (Models), and UI (Views).
+
 - **Server-Side Rendering (SSR)** — fast, backend-driven UI generation using EJS templates, no client-side framework required.
+  
 - **Task Creation Form** — add a task with a title, category (Work / Study / Personal), and a due date via a native date picker.
+  
 - **Dynamic Category Filtering** — instantly filter tasks by category using the **Filter: All Categories** dropdown, backed by optimized MongoDB queries.
+  
 - **Complete / Undo Toggle** — mark a task as done (shown with a strikethrough and greyed-out styling) and reverse it with a single click if marked by mistake.
+  
 - **One-Click Delete** — remove tasks permanently from the list and database.
+  
 - **Color-Coded Category Tags** — each task displays its category (`[Work]`, `[Study]`, `[Personal]`) in a distinct color for quick scanning.
+  
 - **Intelligent Deadline Alerts** — algorithmic date-checking automatically flags overdue tasks in **red** and tasks due today in **orange**.
+  
 - **Cloud Deployed** — fully provisioned and hosted on an Amazon Web Services (AWS) EC2 instance, kept alive with PM2 process management.
 
 ---
@@ -71,8 +75,8 @@ The app provides a clean, card-based interface for managing tasks — add a titl
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/nodejs-mvc-task-manager.git
-cd nodejs-mvc-task-manager
+git clone https://github.com/RahulBiswas224/fs07p1a__TaskManager.git
+cd fs07p1a__TaskManager
 ```
 
 **2. Install dependencies:**
@@ -116,6 +120,9 @@ This application is configured for cloud deployment.
 ## 👨‍💻 Author
 
 **Project Code:** FS07P1A (Rixi Lab Technologies)
+
 **Developed By:** BWU/BCA/23/224
+
 Bachelor of Computer Applications, Brainware University
+
 Specializing in Cloud Computing, DevOps, and AWS Architecture
