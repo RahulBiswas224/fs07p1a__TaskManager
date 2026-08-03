@@ -1,0 +1,26 @@
+{
+  "name": "fs07p1a_taskmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulBiswas224/fs07p1a__TaskManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulBiswas224/fs07p1a__TaskManager/issues"
+  },
+  "homepage": "https://github.com/RahulBiswas224/fs07p1a__TaskManager#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1"
+  }
+}
