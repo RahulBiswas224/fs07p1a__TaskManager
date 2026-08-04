@@ -1,4 +1,4 @@
-# 📝 Project Task Manager (FS07P1A)
+# Project Task Manager (FS07P1A)
 
 A robust, backend-driven To-Do List application built with **Node.js**, **Express**, and **MongoDB**. This project strictly follows the **Model-View-Controller (MVC)** architectural pattern and uses **Server-Side Rendering (SSR)** via EJS — fulfilling the requirement of performing database operations without building a standard REST API.
 
@@ -12,7 +12,7 @@ A robust, backend-driven To-Do List application built with **Node.js**, **Expres
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![Project Task Manager Screenshot](./public/screenshot.png)
 
@@ -20,7 +20,7 @@ The app provides a clean, card-based interface for managing tasks — add a titl
 
 ---
 
-## ✨ Features
+## Features
 
 - **Strict MVC Architecture** — clean separation of business logic (Controllers), data modeling (Models), and UI (Views).
 
@@ -42,7 +42,7 @@ The app provides a clean, card-based interface for managing tasks — add a titl
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer          | Technology              |
 |----------------|--------------------------|
@@ -53,25 +53,25 @@ The app provides a clean, card-based interface for managing tasks — add a titl
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
-📦 todo-app
- ┣ 📂 controllers
- ┃ ┗ 📜 taskController.js    # Business logic and MongoDB queries
- ┣ 📂 models
- ┃ ┗ 📜 Task.js              # Mongoose schema definition
- ┣ 📂 routes
- ┃ ┗ 📜 taskRoutes.js        # Express routing
- ┣ 📂 views
- ┃ ┗ 📜 index.ejs            # Frontend UI template
- ┣ 📜 server.js              # Application entry point
- ┗ 📜 package.json
+Todo-app/
+├── controllers/
+│   └── taskController.js    # Business logic and MongoDB queries
+├── models/
+│   └── Task.js              # Mongoose schema definition
+├── routes/
+│   └── taskRoutes.js        # Express routing
+├── views/
+│   └── index.ejs            # Frontend UI template
+├── server.js                # Application entry point
+└── package.json
 ```
 
 ---
 
-## 💻 Local Installation & Setup
+## Local Installation & Setup
 
 **1. Clone the repository:**
 ```bash
@@ -96,7 +96,7 @@ The application will be running at `http://localhost:3000`.
 
 ---
 
-## ☁️ AWS EC2 Deployment Guide
+## AWS EC2 Deployment Guide
 
 This application is configured for cloud deployment.
 
@@ -108,7 +108,7 @@ This application is configured for cloud deployment.
 
 ---
 
-## 📌 Roadmap / Future Improvements
+## Roadmap / Future Improvements
 
 - [ ] User authentication (per-user task lists)
 - [ ] Edit-in-place for existing tasks
@@ -117,7 +117,7 @@ This application is configured for cloud deployment.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Project Code:** FS07P1A (Rixi Lab Technologies)
 
